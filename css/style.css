@@ -1,0 +1,108 @@
+body,
+p {
+  font-family: "Poppins";
+  font-size: 15px;
+  margin: 0;
+  line-height: 18px;
+}
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.header {
+  text-align: center;
+  width: 350px;
+}
+.header h1 {
+  font-weight: 200;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+.header h2 {
+  font-weight: 600;
+  font-size: 26px;
+  margin-top: 15px;
+}
+.header p {
+  color: hsl(229, 6%, 66%);
+  font-size: 12px;
+}
+.four-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.cyan-box {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid hsl(180, 62%, 55%);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.box-text {
+  color: hsl(229, 6%, 66%);
+  font-size: 11px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.red-box {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid hsl(0, 78%, 62%);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.middle-section {
+  margin: 0 20px;
+}
+.orange-box {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid hsl(34, 97%, 64%);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.blue-box {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid hsl(212, 86%, 64%);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.four-boxes img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: flex-end;
+}
+
+.attribution {
+  margin-top: 50px;
+}
